@@ -1,0 +1,9 @@
+// The solution must return the only duplicated number in a unsorted array that starts from 1 through N
+
+function findDup( arr ){
+  let newArr = arr.slice().filter((value, index) => arr.indexOf(value) !== index)
+  
+  let duplicatedValue = newArr[0];
+
+  return duplicatedValue;
+}
