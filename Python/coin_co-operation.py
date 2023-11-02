@@ -10,5 +10,6 @@ def get_coin_balances(lst1, lst2):
 
     return person1, person2
 
+
 # Expected result: (3, 11)    
 print( get_coin_balances(['share', 'share', 'share'], ['steal', 'share', 'steal']) )
